@@ -1,0 +1,30 @@
+html, body { height: 100%; }
+* { margin: 0; font-family: 'Poppins', sans-serif !important}
+
+.header{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2;
+
+}
+
+.skills-sec{
+    /* height: 100vh; */
+    overflow: hidden;
+}
+.progress{
+    margin-bottom: 2rem;
+    height: 60px;
+}
+
+.progress-bar{
+    font-size: 30px;
+}
+
+.skills-head{
+    /* width: 50%; */
+    border-bottom: 1px solid white;
+    padding: 2rem;
+    text-align: center;
+}

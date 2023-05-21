@@ -1,0 +1,9 @@
+html, body { height: 100%; }
+* { margin: 0; font-family: 'Poppins', sans-serif !important}
+
+.header{
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2;
+}

@@ -1,0 +1,9 @@
+<h1>Cards</h1>
+
+<ul>
+  <li *ngFor="let card of cards">
+    <div [style.backgroundColor]="card.background">
+      {{ card.number }}
+    </div>
+  </li>
+</ul>

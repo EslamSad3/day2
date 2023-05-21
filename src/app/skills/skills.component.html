@@ -1,0 +1,24 @@
+<div class="row bg-dark text-light skills-sec">
+    <div class="row d-flex flex-column text-center">
+        <div class="col">
+            <h1 class="header mt-5">Skills</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Temporibus iure nam in, quidem reiciendis
+                corrupti neque expedita minima esse. Sit, beatae deleniti. <br> Maiores molestias fuga facilis fugit,
+                deleniti repudiandae illo!</p>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class=" col-12 col-md-6 col-lg-5 ">
+            <h1 class="h1 skills-head">MY FUCOS</h1>
+            <h1 class="h1">UI/UX</h1>
+            <h1 class="h1">WEB DESGIN</h1>
+            <h1 class="h1">GRAFIC DESIGN</h1>
+            <h1 class="h1">FULL STAKE</h1>
+        </div>
+        <div class="col-12 col-md-6 col-lg-7 ">
+            <div class="progress" *ngFor="let skill of skills">
+                <div class="progress-bar text-start p-2 bg-{{skill.color}}" [ngStyle]="{'width': skill.rate}">{{skill.name}}</div>
+            </div>
+        </div>
+    </div>
+</div>
